@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="40dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trash Bin Monitoring"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp" />
+
+        <!-- Bin 1 -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bg12"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/bin1LevelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teratai Bin 1: 0%"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+        <ProgressBar
+            android:id="@+id/bin1ProgressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="#4CAF50"
+            android:layout_marginTop="4dp" />
+
+        <!-- Bin 2 -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bg11"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:id="@+id/bin2LevelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teratai Bin 2: 0%"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+        <ProgressBar
+            android:id="@+id/bin2ProgressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="#4CAF50"
+            android:layout_marginTop="4dp" />
+
+        <!-- Update Button -->
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

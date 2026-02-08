@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMARTWASTE\nMONITORING SYSTEM"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <!-- Trash Bin Icon -->
+    <ImageView
+        android:id="@+id/binIcon"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/titleText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bg8" />
+
+    <!-- DUSTBIN LEVEL Button -->
+    <Button
+        android:id="@+id/btnDustbin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DUSTBIN LEVEL"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:layout_below="@id/binIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+
+    <!-- TIPS Button -->
+    <Button
+        android:id="@+id/btnTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIPS"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:layout_below="@id/btnDustbin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>
+

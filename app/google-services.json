@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "355417249970",
+    "firebase_url": "https://myfyp-44755-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "myfyp-44755",
+    "storage_bucket": "myfyp-44755.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355417249970:android:9d93a51ad870b6f87a51ab",
+        "android_client_info": {
+          "package_name": "com.example.myfyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR0cUx3hXJFw9DyZHpYY65L-gjpaMreh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

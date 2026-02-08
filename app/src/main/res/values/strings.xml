@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Myfyp</string>
+    <string name="trash_level_text">Trash Level: %1$d%%</string>
+    <string name="error_loading_data">Error loading data.</string>
+</resources>
