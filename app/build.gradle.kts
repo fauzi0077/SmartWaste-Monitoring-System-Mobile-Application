@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myfyp"
+    namespace = "<insert namespace here>"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.myfyp"
+        applicationId = "<insert applicationId here>"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
